@@ -92,7 +92,9 @@ $order_data = $result->fetch_assoc();
                         <?php } ?>
                     </ul>
                     <div class="d-flex justify-content-center">
-                
+                        <button class="btn btn-sm btn-secondary mt-2" data-bs-toggle="modal" data-bs-target="#modal<?= $index ?>">
+                            Update Data
+                        </button>
                     </div>
                 </div>
             </div>
